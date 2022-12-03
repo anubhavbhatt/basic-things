@@ -6,13 +6,15 @@
 Filename: 
 `sudo nano /etc/apache2/extra/httpd-vhosts.conf`
 
-`<VirtualHost *:80>
+```
+<VirtualHost *:80>
     ServerAdmin webmaster@localhost
     DocumentRoot "/Users/anubhav/App/<YOUR_PROJECT_NAME>"
     ServerName <YOUR_PROJECT_NAME>.io
     ErrorLog "/private/var/log/apache2/<YOUR_PROJECT_NAME>.io-error_log"
     CustomLog "/private/var/log/apache2/<YOUR_PROJECT_NAME>.io-access_log" common
-</VirtualHost>`
+<\/VirtualHost>
+```
 
 ### Hosts file Update
 
